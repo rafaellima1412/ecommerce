@@ -2,7 +2,7 @@ import pytest
 from products.models import Product
 from pytest_django.asserts import assertQuerysetEqual
 
-from tests.factories import ProductFactory
+from .factories import ProductFactory
 
 pytestmark = pytest.mark.django_db
 

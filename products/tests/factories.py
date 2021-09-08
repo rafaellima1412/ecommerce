@@ -1,7 +1,7 @@
+from products.models import Category, Product
+
 import factory
 import factory.fuzzy
-
-from ..models import Category, Product
 
 
 class CategoryFactory(factory.django.DjangoModelFactory):
